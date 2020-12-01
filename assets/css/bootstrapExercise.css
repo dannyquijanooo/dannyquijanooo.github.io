@@ -1,0 +1,19 @@
+.gridExercise {
+    background-color: lightseagreen;
+    margin: 30px 0;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px 0;
+
+}
+
+.parentTarget div {
+    height: 50;
+    background-color: lightblue;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}

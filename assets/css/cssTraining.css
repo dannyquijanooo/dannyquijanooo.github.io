@@ -1,0 +1,10 @@
+#firstDiv {
+    width: '100%';
+    height: 500px;
+    background-image: url('../images/Chichen-Itza-696x461.jpg')
+}
+span {
+    color: white;
+    background-color: green;
+    font-size: 40px;
+}
