@@ -1,0 +1,44 @@
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.customNav button.navbar-toggler span > i {
+    color: #F4B919;
+    font-size: 30px;
+  }
+
+.customNav > a.navbar-brand > img {
+    height: 75px;
+    width: auto;
+    text-align: center;
+  }
+  /* media queries */
+  @media (max-width: 576px) {
+    .customNav > a.navbar-brand > img {
+        height: 100px;
+        text-align: center;
+    }
+  }
+  @media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: #F4B919;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
