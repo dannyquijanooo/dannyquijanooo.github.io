@@ -30,11 +30,12 @@
     }
   }
   @media (min-width: 768px)
+
 .container, .container-md, .container-sm {
     max-width: 720px;
 }
 
-.btn-primary {
+.btnbtn-primary {
     color: #fff;
     background-color: black;
     border-color: #F4B919;

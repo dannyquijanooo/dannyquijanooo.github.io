@@ -1,4 +1,10 @@
 
+html {
+  height: 100%;
+}
+
+
+
   body {
   margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -8,6 +14,7 @@
     color: #212529;
     text-align: left;
     background-color: rgb(209, 0, 0);
+    opacity: .75;
 }
 
 .headingContainer {
@@ -26,7 +33,7 @@
   margin: 50px auto;
 }
 
-}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   width: 100%;
   padding-right: 15px;
@@ -34,6 +41,45 @@
   margin-right: auto;
   margin-left: auto;
 }
+.projectCard {
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
 a.viewProjectBtn {
   background-color: rgb(20, 20, 20);
   color: white;
