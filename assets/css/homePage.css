@@ -14,7 +14,7 @@ html {
     color: #212529;
     text-align: left;
     background-color: rgb(209, 0, 0);
-    opacity: .75;
+    /* opacity: .75; */
 }
 
 .headingContainer {
@@ -60,11 +60,17 @@ html {
   outline: 0;
 }
 
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
 .modal-body {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .carousel-item {
