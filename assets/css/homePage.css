@@ -172,6 +172,10 @@ h1 {
   }
 }
 
+mr-auto, .mx-auto {
+  margin-right: auto!important;
+}
+
 .nav-link {
   color: white;
 }

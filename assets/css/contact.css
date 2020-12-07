@@ -30,6 +30,10 @@
   }
 }
 
+mr-auto, .mx-auto {
+  margin-right: auto!important;
+}
+
 @media (min-width: 768px) .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
@@ -50,7 +54,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
+  background-color: #F4B919;
   border: 1px solid transparent;
   padding: .375rem .75rem;
   font-size: 1rem;
